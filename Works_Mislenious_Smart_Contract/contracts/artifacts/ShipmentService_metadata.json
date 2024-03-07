@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "time",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/c1.sol": "ShipmentService"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/c1.sol": {
+			"keccak256": "0xe6547947f4c9af7a9d837225ccce380eae20951234cbe713f40abc45a4aa4b1d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://122e23d1a419573c08cab322a1a87a8b47700f17f3084c8b9541368fe7c2fd75",
+				"dweb:/ipfs/Qmb7oS1cLMoM1uxbvHRUhUkxJejF4uarjPAeE7JJ8pHKWx"
+			]
+		}
+	},
+	"version": 1
+}

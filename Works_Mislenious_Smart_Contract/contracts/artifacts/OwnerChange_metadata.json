@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newowner",
+						"type": "address"
+					}
+				],
+				"name": "setowner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice.sol": "OwnerChange"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice.sol": {
+			"keccak256": "0xfc04e89fe92c3517006a9dfe50cc9ee39df000b32c9cca2b440765b836b3114e",
+			"license": "GBL-3.0",
+			"urls": [
+				"bzz-raw://97ffdbd178e303e21c08e5cf75f64f4a35d424e7c07d35e9186b5d76ca8bb2f4",
+				"dweb:/ipfs/QmZ9SWYEheySG7oHUTgH6g6jwzcf54HZmZG9XSyuCWGFBu"
+			]
+		}
+	},
+	"version": 1
+}

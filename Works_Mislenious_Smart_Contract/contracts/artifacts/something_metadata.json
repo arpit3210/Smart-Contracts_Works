@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_msgSender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "some",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/practice2.sol": "something"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/practice2.sol": {
+			"keccak256": "0x11a03acc643464f150dae762a97e419728ed5e9c2b1b65e298325488a3ac9901",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7508b7b378d7f8702b1d241675833848e1a891120c6c3ce34733de78dcdaaa4",
+				"dweb:/ipfs/Qmag2nvpy4sWvSar4QNgK3f2MvqbTU1a1BjxBjgpj9NRHJ"
+			]
+		}
+	},
+	"version": 1
+}

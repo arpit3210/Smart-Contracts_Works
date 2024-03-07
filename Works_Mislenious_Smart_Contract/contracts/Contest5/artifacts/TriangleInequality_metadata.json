@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contest5/Triangle Inequality.sol": "TriangleInequality"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contest5/Triangle Inequality.sol": {
+			"keccak256": "0x58d98502226680947520a0e953189c31877e5a529553bbcb5e9c7f1f981c2827",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ae870f4605997e400f3c530e5b43575930ce4238e78988826e8da133a7fb566e",
+				"dweb:/ipfs/QmVB7X2eSJZnUXR2XyQVXdBR6sZF4Rj2gycWJfuvRpwPpC"
+			]
+		}
+	},
+	"version": 1
+}
